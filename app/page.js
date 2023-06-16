@@ -1,7 +1,14 @@
 import Image from 'next/image'
 
 export default function Home() {
+
+  const handleClick = () => {
+    // Perform the desired action or functionality here (API SPOTIFY)
+    console.log('Button clicked!');
+   };
+
   return (
+
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {/* New navbar */}
       <div className="navbar bg-base-100">
@@ -81,6 +88,8 @@ export default function Home() {
           <img src="https://picsum.photos/200/300" alt="Burger" />
         </div>
       </div>
+
+      <button className="btn">Button</button>
 
       {/* Bottom section */}
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
