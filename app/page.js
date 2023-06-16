@@ -57,6 +57,31 @@ export default function Home() {
         />
       </div>
 
+      {/* Carousel */}
+      <div className="carousel rounded-box">
+        <div className="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Burger" />
+        </div> 
+        <div className="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Burger" />
+        </div> 
+        <div className="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Burger" />
+        </div> 
+        <div className="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Burger" />
+        </div> 
+        <div className="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Burger" />
+        </div> 
+        <div className="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Burger" />
+        </div> 
+        <div className="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Burger" />
+        </div>
+      </div>
+
       {/* Bottom section */}
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         {/* Docs link */}
