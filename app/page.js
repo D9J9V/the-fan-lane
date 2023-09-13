@@ -1,14 +1,12 @@
 import Image from 'next/image'
+import React from 'react'
 
 export default function Home() {
 
-  const handleClick = () => {
-    // Perform the desired action or functionality here (API SPOTIFY)
-    console.log('Button clicked!');
-   };
-
+function handleClick() {
+  console.log("Clicked")
+}
   return (
-
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {/* New navbar */}
       <div className="navbar bg-base-100">
@@ -89,7 +87,8 @@ export default function Home() {
         </div>
       </div>
 
-      <button className="btn">Button</button>
+      {/* Button */}
+      <button onClick={handleClick}>Click Me</button>
 
       {/* Bottom section */}
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
